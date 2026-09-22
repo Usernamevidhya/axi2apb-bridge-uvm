@@ -112,13 +112,14 @@ python run_cocotb.py
 
 ## 6. Results
 
-Item,Result
-cocotb regression,Passes via GitHub Actions
-UVM smoke_test scoreboard,"8 passed, 0 failed (77.78% coverage)"
-UVM random_test scoreboard / coverage,"900 passed, 0 failed / 100%"
-SVA failures,0
-Post-route utilization (LUT / FF / LUTRAM),257 / 212 / 128
-WNS at 100 MHz,+3.013 ns
+| Item | Result |
+|------|--------|
+| cocotb regression | Passes via GitHub Actions |
+| UVM `smoke_test` scoreboard | 8 passed, 0 failed (77.78% coverage) |
+| UVM `random_test` scoreboard / coverage | 900 passed, 0 failed / 100% |
+| SVA failures | 0 |
+| Post-route utilization (LUT / FF / LUTRAM) | 257 / 212 / 128 |
+| WNS at 100 MHz | +3.013 ns |
 
 ## 7. Repository layout
 ```
